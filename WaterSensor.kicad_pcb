@@ -554,7 +554,7 @@
 		(descr "Mounting Hole 2.5mm")
 		(tags "mounting hole 2.5mm")
 		(property "Reference" "H1"
-			(at 0 -3.5 0)
+			(at 2.8 2.9 0)
 			(layer "F.SilkS")
 			(uuid "3082f608-e065-49c1-b0fa-9d494c56f2db")
 			(effects
@@ -1841,17 +1841,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_rect
-		(start 121.92 43.18)
-		(end 439.42 353.06)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "10053c08-cbad-45de-86ed-1b692b1bd60a")
 	)
 	(gr_rect
 		(start 127 45.72)
@@ -5584,6 +5573,37 @@
 				(xy 137.440914 60.266997) (xy 137.380236 60.611119) (xy 137.380235 60.61113) (xy 137.359916 60.959996)
 				(xy 137.359916 60.960003) (xy 127.7505 60.960003) (xy 127.7505 46.5945) (xy 127.770185 46.527461)
 				(xy 127.822989 46.481706) (xy 127.8745 46.4705) (xy 430.9255 46.4705)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "3e3f9799-0f34-472c-b790-d58232d762ec")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 436.88 41.91) (xy 123.19 40.64) (xy 121.92 355.6) (xy 439.42 355.6)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 431.743039 45.739685) (xy 431.788794 45.792489) (xy 431.8 45.844) (xy 431.8 350.396) (xy 431.780315 350.463039)
+				(xy 431.727511 350.508794) (xy 431.676 350.52) (xy 127.124 350.52) (xy 127.056961 350.500315) (xy 127.011206 350.447511)
+				(xy 127 350.396) (xy 127 45.844) (xy 127.019685 45.776961) (xy 127.072489 45.731206) (xy 127.124 45.72)
+				(xy 431.676 45.72)
 			)
 		)
 	)
