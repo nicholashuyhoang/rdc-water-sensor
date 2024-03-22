@@ -43,9 +43,7 @@ A mitigation technique for this issue is to erect walls on the border of the mar
 Another potential issue is the usage of deionized water. This design works by causing a "short" between two terminals.
 A mitigiation technique for this issue is to place a layer of fine grain salt on the board. Salt itself is not conducting. However, it will provide conductivity when placed inside a medium.
 
-Testing w/o AruCo marker, Vout readings: 
-
-Testing w/ AruCo marker, Vout readings:
+Testing w/o AruCo marker, Vout readings: 1 drop - 2.75V, 2 drop - 2.9V, 3 drop - 2.94V, 4 drop - 2.96, 5 drop - 3V, 6 drop - 3V, 7 drop - 3.03V, 8 drop - 3.06V, 9 drop - 3.07V, 10 drop - 3.08V, 11 drop - 3.09V,  12 drop - 3.11V, Saturated - 3.3V
 
 
-Characterize resistance of water based on 1mL drops
+1mL is roughly 25 drops
