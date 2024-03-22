@@ -158,7 +158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -182,7 +182,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -194,7 +194,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/050e06d4-c922-4aab-8461-229e7295b0b5")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -366,7 +369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -390,7 +393,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -402,7 +405,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a9ec894a-dddf-4060-b19d-3f9065590de0")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -574,7 +580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -598,7 +604,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -610,7 +616,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/fc3612e0-f667-4de8-8ef7-bc447cd3ab65")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -782,7 +791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -806,7 +815,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -818,7 +827,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/7c1158a8-489e-490c-ba9f-7cf25e5fba08")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -979,7 +991,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "3.3k"
 			(at 0.95 -1.92 0)
 			(layer "B.Fab")
 			(uuid "c653d0d8-3264-475a-95d1-66f2298b3249")
@@ -991,7 +1003,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1015,7 +1027,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1027,7 +1039,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ee8b46a1-9d4d-491f-8121-090597cae2e0")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr through_hole)
 		(fp_arc
 			(start 0.417133 0.7)
@@ -1163,7 +1178,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Main"
 			(at 0 -7.41 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -1176,7 +1191,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1200,7 +1215,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1212,7 +1227,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/181f7dd1-8f10-403c-8a46-2b92e2b5702f")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.33)
@@ -1439,7 +1457,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "330k"
 			(at 0.95 -1.92 90)
 			(layer "B.Fab")
 			(uuid "8387c01c-8c64-4b17-a79d-cd0ab4c01ebe")
@@ -1451,7 +1469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1475,7 +1493,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1487,7 +1505,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/45ebb4f4-c18b-4717-a265-59da9a65e6c7")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr through_hole)
 		(fp_arc
 			(start 0.417133 0.7)
@@ -1635,7 +1656,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1647,7 +1668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1659,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1671,7 +1692,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/f204d258-052a-47ae-99d6-b00dd8c80017")
+		(sheetname "Root")
+		(sheetfile "WaterSensor.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.07 -1.85)
@@ -5572,7 +5596,7 @@
 		(net 0)
 		(net_name "")
 		(layer "F.Mask")
-		(uuid "3e3f9799-0f34-472c-b790-d58232d762ec")
+		(uuid "861b14cf-53e0-4413-b093-9b486b2e3a9f")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -5585,7 +5609,9 @@
 		)
 		(polygon
 			(pts
-				(xy 436.88 41.91) (xy 123.19 40.64) (xy 121.92 355.6) (xy 439.42 355.6)
+				(xy 124.46 355.6) (xy 436.88 354.33) (xy 434.34 41.91) (xy 393.7 41.91) (xy 393.7 53.34) (xy 403.86 53.34)
+				(xy 403.86 58.42) (xy 401.32 63.5) (xy 396.24 71.12) (xy 391.16 71.12) (xy 391.16 68.58) (xy 384.81 68.58)
+				(xy 384.81 60.96) (xy 392.43 60.96) (xy 392.43 53.34) (xy 393.7 53.34) (xy 393.7 41.91) (xy 123.19 41.91)
 			)
 		)
 		(filled_polygon
@@ -5594,8 +5620,11 @@
 			(pts
 				(xy 431.743039 45.739685) (xy 431.788794 45.792489) (xy 431.8 45.844) (xy 431.8 350.396) (xy 431.780315 350.463039)
 				(xy 431.727511 350.508794) (xy 431.676 350.52) (xy 127.124 350.52) (xy 127.056961 350.500315) (xy 127.011206 350.447511)
-				(xy 127 350.396) (xy 127 45.844) (xy 127.019685 45.776961) (xy 127.072489 45.731206) (xy 127.124 45.72)
-				(xy 431.676 45.72)
+				(xy 127 350.396) (xy 127 68.58) (xy 384.81 68.58) (xy 391.036 68.58) (xy 391.103039 68.599685) (xy 391.148794 68.652489)
+				(xy 391.16 68.704) (xy 391.16 71.12) (xy 396.239999 71.12) (xy 401.32 63.499998) (xy 401.320001 63.499996)
+				(xy 403.86 58.42) (xy 403.86 53.34) (xy 392.43 53.34) (xy 392.43 60.836) (xy 392.410315 60.903039)
+				(xy 392.357511 60.948794) (xy 392.306 60.96) (xy 384.81 60.96) (xy 384.81 68.58) (xy 127 68.58)
+				(xy 127 45.844) (xy 127.019685 45.776961) (xy 127.072489 45.731206) (xy 127.124 45.72) (xy 431.676 45.72)
 			)
 		)
 	)

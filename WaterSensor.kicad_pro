@@ -497,7 +497,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "watersensor-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -607,7 +607,7 @@
   "sheets": [
     [
       "c77f238a-6680-419f-b02d-19c999ddf08f",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
